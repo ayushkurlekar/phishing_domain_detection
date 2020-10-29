@@ -1,0 +1,8 @@
+whois
+favicon
+tldextract
+termcolor
+dnspython
+bs4
+wheel
+xmltodict
