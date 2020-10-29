@@ -5,10 +5,10 @@
 **Results Calibration:**
 1. if ouput is 1 ------> PHISHING
 2. if ouput is 0 ------> SUSPICIOUS
-3. if ouput is -1 ------> LEGITIMATE
+3. if ouput is -1 ------> LEGITIMATE<br>
+
 **Total Rules:** 19<br>	
 **Phishing score:** out of 10<br>	
-
 **NOTE:** if Phishing score is more than 2 then >>> Domain is predicted as Phishing<br>	
 
 # To run:<br>	
