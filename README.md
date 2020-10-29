@@ -1,15 +1,14 @@
 # Phishing Domain Detection							
-**Purpose:** This file has rules functions to detect phishing domain 														
-**Author:** DIMA DEVELOPERS (https://dimabusiness.com)
-**Licence:** MIT
+**Purpose:** This file has rules functions to detect phishing domain<br>														
+**Author:** DIMA DEVELOPERS (https://dimabusiness.com)<br>	
+**Licence:** MIT<br>	
 **Results Calibration:**
 1. if ouput is 1 ------> PHISHING
 2. if ouput is 0 ------> SUSPICIOUS
 3. if ouput is -1 ------> LEGITIMATE
-**Total Rules:** 19
-**Phishing score:** out of 10
-
-## if Phishing score is more than 2 then >>> Domain is predicted as Phishing
+**Total Rules:** 19<br>	
+**Phishing score:** out of 10<br>	
+**if Phishing score is more than 2 then >>> Domain is predicted as Phishing**
 
 Detect Phishing domain with 19 different rules
 ----------------------------------------------------------------------------------
