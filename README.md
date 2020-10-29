@@ -8,7 +8,14 @@
 3. if ouput is -1 ------> LEGITIMATE
 **Total Rules:** 19<br>	
 **Phishing score:** out of 10<br>	
-**if Phishing score is more than 2 then >>> Domain is predicted as Phishing**
+
+**NOTE:** if Phishing score is more than 2 then >>> Domain is predicted as Phishing<br>	
+
+# To run:<br>	
+**Install PIP packages:**<br>
+`pip3 install -r requirements.txt`<br>
+**Add domains to be predicted in domains_list.txt and finally run**<br>
+`$ python3 rules.py`
 
 Detect Phishing domain with 19 different rules
 ----------------------------------------------------------------------------------
