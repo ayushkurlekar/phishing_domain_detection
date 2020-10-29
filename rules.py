@@ -170,10 +170,10 @@ Output: (1, 0, -1)
 '''
 
 def using_long_domain(query):
-	if len(query) < 10:
+	if len(query) < 13:
 		print("url_length: ",-1)
 		final_result.append(-1)
-	elif len(query)>=10 and len(query)<=30:
+	elif len(query)>=13 and len(query)<=25:
 		print("url_length: ",0)
 		final_result.append(0)
 	else:
