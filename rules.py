@@ -1,5 +1,5 @@
 ''' 
-___________________________________________________________________________________
+__________________________________________________________________________________
 
 	Title: DIMA DEV - Phishing Predictions Wireframe
 	Purpose: This file has rules functions to get the dataset ready for ml model
@@ -48,17 +48,22 @@ from urllib.parse import urlencode
 
 
 print(colored('''
-	_______________________________________________________________
+	 ____________________________________________________________________________________
+	|  ____  _   _ ___ ____  _   _       ____  _____ _____ _____ ____ _____ ___  ____    |
+	| |  _ \| | | |_ _/ ___|| | | |     |  _ \| ____|_   _| ____/ ___|_   _/ _ \|  _ \   |
+	| | |_) | |_| || |\___ \| |_| |_____| | | |  _|   | | |  _|| |     | || | | | |_) |  |
+	| |  __/|  _  || | ___) |  _  |_____| |_| | |___  | | | |__| |___  | || |_| |  _ <   |
+	| |_|   |_| |_|___|____/|_| |_|     |____/|_____| |_| |_____\____| |_| \___/|_| \_\  |
+	|____________________________________________________________________________________|                                                                                 
 
-		Title: DIMA AI-ML Engine - Phishing Predictions							
-		Purpose: This file has rules functions to get the dataset ready for ml model 														
-		Author: DIMA Business Solutions Team - 2019-20
-		Results Calibration:
-		1. if ouput is 1 ------> PHISHING
-		2. if ouput is 0 ------> SUSPICIOUS
-		3. if ouput is -1 ------> LEGITIMATE
-		Total Rules: 10					
-	_______________________________________________________________
+	Title: DIMA AI-ML Engine - Phishing Predictions							
+	Purpose: This file has rules functions to get the dataset ready for ml model 														
+	Author: DIMA Business Solutions Team - 2019-20
+	Results Calibration:
+	1. if ouput is 1 ------> PHISHING
+	2. if ouput is 0 ------> SUSPICIOUS
+	3. if ouput is -1 ------> LEGITIMATE
+	Total Rules: 10					
 
 	''', 'yellow'))
 
