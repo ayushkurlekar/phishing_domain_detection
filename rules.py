@@ -92,13 +92,6 @@ Including:
 4. Domain Extraction with tldextract
 ----------------------------------------------------------------------------------
 '''
-#1. Regex rule for ip for IPv4
-
-regex = '''^(25[0-5]|2[0-4][0-9]|[0-1]?[0-9][0-9]?)\.( 
-			25[0-5]|2[0-4][0-9]|[0-1]?[0-9][0-9]?)\.( 
-			25[0-5]|2[0-4][0-9]|[0-1]?[0-9][0-9]?)\.( 
-			25[0-5]|2[0-4][0-9]|[0-1]?[0-9][0-9]?)$'''
-
 
 #2. Set the headers with random user agent
 user_agent_list = [
@@ -150,10 +143,14 @@ Output: (1, -1)
 '''
 
 def using_ip_address(query):
-	if(re.search(regex, query)): 
-		print("using_ip_address: ", 1)
-		final_result.append(1)		
-	else: 
+	try:
+		if(len(re.findall(r'\b25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?\.25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?\.25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?\.25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?\b', query ))) != 0: 
+			print("using_ip_address: ", 1)
+			final_result.append(1)
+		else: 
+			print("using_ip_address: ", -1)
+			final_result.append(-1)
+	except:
 		print("using_ip_address: ", -1)
 		final_result.append(-1)
 
